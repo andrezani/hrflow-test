@@ -34,6 +34,14 @@ Then install the dependencies:
 npm install
 ```
 
+Then under `.env` file in the root directory of the project add your environment variables
+
+```bash
+VITE_RAPID_API_KEY=your_api_key
+VITE_RAPID_USER_EMAIL=your_email
+VITE_RAPID_BOARD_KEYS=your_board_keys
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
